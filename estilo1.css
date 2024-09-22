@@ -1,6 +1,6 @@
-/* Estilos generales */
+
 #contenedor {
-    width: 90%; /* Ajuste de ancho para asegurar que se vea bien en pantallas más pequeñas */
+    width: 90%; 
     margin: 20px auto;
     background-color: #888888;
     padding: 20px;
@@ -34,13 +34,13 @@
     color: #EFD80E;
 }
 
-/* Contenedor que agrupa el menú y la imagen grande */
+
 #contenedor-principal {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
     margin: 20px 0;
-    flex-wrap: wrap; /* Permitir que los elementos se ajusten en pantallas pequeñas */
+    flex-wrap: wrap; 
 }
 
 #izquierda {
@@ -66,7 +66,7 @@
     display: flex;
     align-items: center;
     border-radius: 50px;
-    width: 75%; /* Ajuste para que se vea bien */
+    width: 75%;
     margin-right: 20px;
     box-sizing: border-box;
 }
@@ -100,14 +100,14 @@
     border-radius: 10px;
 }
 
-/* Sección de la derecha */
+
 #derecha {
     background-color: #a3a3a3;
-    width: 75%; /* Igualar el tamaño al contenedor de la imagen */
+    width: 75%; 
     padding: 20px;
     border-radius: 50px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
-    margin: 20px auto; /* Centrado */
+    margin: 20px auto; 
     box-sizing: border-box;
     margin-right: 20px;
 }
@@ -123,7 +123,7 @@
     border-radius: 10px;
 }
 
-/* Pie de página */
+
 #piepagina {
     clear: both;
     background-color: #8F0884;
@@ -149,43 +149,43 @@ p {
     margin: 15px 0;
 }
 
-/* Media Queries para móviles: Asegurar que el diseño sea fluido y se vea igual que en la PC */
+
 @media (max-width: 768px) {
-    /* Ajustes para tablets y móviles */
+    
     
     #contenedor-principal {
-        flex-direction: column; /* Hacer que el contenido se apile verticalmente en móviles */
+        flex-direction: column; 
     }
     
     #izquierda {
-        width: 100%; /* Ocupa todo el ancho en móviles */
+        width: 100%; 
         margin-right: 0;
-        margin-bottom: 20px; /* Añadir espacio entre secciones en vista móvil */
+        margin-bottom: 20px; 
     }
     
     #seccion-principal {
-        width: 100%; /* Ocupa todo el ancho en móviles */
+        width: 100%; 
         margin-right: 0;
     }
     
     #derecha {
-        width: 100%; /* Igualar el tamaño al contenedor de la imagen */
+        width: 100%; 
         margin-right: 0;
         margin-left: 0;
     }
     
     .imagen-grande img {
-        max-width: 100%; /* Asegurar que la imagen se ajuste al ancho del contenedor en móviles */
+        max-width: 100%; 
         height: auto;
         
     }
     .imagen-grande img {
-        max-width: 100%; /* Asegura que la imagen se ajuste al contenedor */
-        height: auto;    /* Mantiene la proporción de la imagen */
-        display: block;  /* Asegura que se muestre como un bloque */
+        max-width: 100%; 
+        height: auto;    
+        display: block;  
     }
     
     .imagen-exito img {
-        max-width: 100%; /* Asegurar que la imagen de éxito se ajuste en móviles */
+        max-width: 100%; 
     }
 }
